@@ -1,0 +1,7 @@
+Running: xsim.dir/slow_timer_check_behav/xsimk.exe -simmode gui -wdb slow_timer_check_behav.wdb -simrunnum 0 -socket 64475
+Design successfully loaded
+Design Loading Memory Usage: 7840 KB (Peak: 7840 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 14900 KB (Peak: 14900 KB)
+Simulation CPU Usage: 61 ms

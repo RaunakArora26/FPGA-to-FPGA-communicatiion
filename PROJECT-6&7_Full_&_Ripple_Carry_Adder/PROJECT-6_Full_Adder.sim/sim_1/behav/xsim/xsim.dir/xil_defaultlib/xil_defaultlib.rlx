@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sim_1/new/Rippler_carray-adder_tb.v,1721325275,verilog,,,,Rippler_carray_adder_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sources_1/imports/new/Full_adder.v,1718256513,verilog,,C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sources_1/imports/new/Ripple_carray_Adder.v,,Full_adder,,,,,,,,
+C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sources_1/imports/new/Ripple_carray_Adder.v,1718250754,verilog,,C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sim_1/new/Rippler_carray-adder_tb.v,,Ripple_carray_Adder,,,,,,,,
+C:/Users/lenovo/PROJECT-6_Full_Adder/PROJECT-6_Full_Adder.srcs/sources_1/new/Full_adder_tb.v,1721323061,verilog,,,,Full_adder_tb,,,,,,,,

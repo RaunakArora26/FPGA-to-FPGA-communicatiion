@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1721717499">
+  <File Type="PA-TCL" Name="GPIO_UART_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="GPIO_UART_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="GPIO_UART_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="GPIO_UART_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="GPIO_UART_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="GPIO_UART_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="GPIO_UART_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="GPIO_UART_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="GPIO_UART_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/NOT.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/GPIO_UART/GPIO_UART.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/GPIO_UART/hdl/GPIO_UART_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="GPIO_UART_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/boolean.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/boolean.xdc"/>
+        <Attr Name="ImportTime" Val="1719998945"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_rst_mclk_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="GPIO_UART_NOT_0_0"/>
+</GenRun>

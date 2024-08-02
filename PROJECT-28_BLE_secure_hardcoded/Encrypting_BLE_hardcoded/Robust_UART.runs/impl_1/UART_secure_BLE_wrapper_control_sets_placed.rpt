@@ -1,0 +1,73 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Jul 23 17:33:25 2024
+| Host         : Raunak-Thinkpad running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file UART_secure_BLE_wrapper_control_sets_placed.rpt
+| Design       : UART_secure_BLE_wrapper
+| Device       : xc7s50
+----------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    33 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              52 |           23 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              40 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              19 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|                 Clock Signal                |                      Enable Signal                      |                     Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++---------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+|  UART_secure_BLE_i/Seven_seg_0/inst/L2/CLK  |                                                         |                                                         |                1 |              2 |
+|  UART_secure_BLE_i/Seven_seg_1/inst/L2/CLK  |                                                         |                                                         |                1 |              2 |
+|  UART_secure_BLE_i/Seven_seg_0/inst/L3/E[0] |                                                         |                                                         |                2 |              7 |
+|  UART_secure_BLE_i/Seven_seg_1/inst/L3/E[0] |                                                         |                                                         |                3 |              7 |
+|  mclk_IBUF_BUFG                             | UART_secure_BLE_i/UART_Tx_0/inst/r_data_byte[7]_i_2_n_0 | UART_secure_BLE_i/UART_Tx_0/inst/r_data_byte[7]_i_1_n_0 |                2 |              8 |
+|  mclk_IBUF_BUFG                             | UART_secure_BLE_i/UART_Rx_0/inst/r_count[10]_i_2_n_0    | UART_secure_BLE_i/UART_Rx_0/inst/r_count[10]_i_1_n_0    |                6 |             11 |
+|  mclk_IBUF_BUFG                             |                                                         | UART_secure_BLE_i/Seven_seg_0/inst/L2/clk_out           |                5 |             20 |
+|  mclk_IBUF_BUFG                             |                                                         | UART_secure_BLE_i/Seven_seg_1/inst/L2/clk_out           |                5 |             20 |
+|  mclk_IBUF_BUFG                             |                                                         |                                                         |               16 |             34 |
++---------------------------------------------+---------------------------------------------------------+---------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     2 |
+| 7      |                     2 |
+| 8      |                     1 |
+| 11     |                     1 |
+| 16+    |                     3 |
++--------+-----------------------+
+
+

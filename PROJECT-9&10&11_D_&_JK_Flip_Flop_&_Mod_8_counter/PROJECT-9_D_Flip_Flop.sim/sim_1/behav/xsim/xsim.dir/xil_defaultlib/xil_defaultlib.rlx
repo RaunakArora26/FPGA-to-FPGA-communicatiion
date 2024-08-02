@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/D_FF_tb.v,1721369598,verilog,,,,D_FF_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/J_K_FF_tb.v,1721373358,verilog,,,,J_K_FF_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/Mod_eight_counter_tb.v,1721375850,verilog,,,,Mod_eight_counter_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sources_1/imports/new/D_FlipFlop.v,1718271143,verilog,,C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/D_FF_tb.v,,D_FlipFlop,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sources_1/imports/new/J_K_FlipFlop.v,1721372837,verilog,,C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/J_K_FF_tb.v,,J_K_FlipFlop,,,,,,,,
+C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sources_1/imports/new/Mod_Eight_up_Counter.v,1718276608,verilog,,C:/Users/lenovo/PROJECT-9_D_Flip_Flop/PROJECT-9_D_Flip_Flop.srcs/sim_1/new/Mod_eight_counter_tb.v,,Mod_Eight_up_Counter,,,,,,,,

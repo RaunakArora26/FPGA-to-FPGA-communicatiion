@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PROJECT-1_GPIO.srcs/sources_1/new/GPIO.v" \
+"../../../../PROJECT-1_GPIO.srcs/sim_1/new/gpio_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sources_1/imports/new/mod_five_up_down_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_five_up_down_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sim_1/imports/new/modUpDownCounter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module modUpDownCounter_tb

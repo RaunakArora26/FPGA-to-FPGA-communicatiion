@@ -1,0 +1,13 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/lenovo/Project-3_MUX_2x1/Project-3_MUX_2x1.srcs/constrs_1/imports/Downloads/boolean.xdc rfile:../../../Project-3_MUX_2x1.srcs/constrs_1/imports/Downloads/boolean.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 -name mclk -waveform {0.000 5.000} mclk
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN F14 IOSTANDARD LVCMOS33} [get_ports {mclk}]
+set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [get_ports {i0}]
+set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [get_ports {i1}]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U1 IOSTANDARD LVCMOS33} [get_ports {sel}]
+set_property src_info {type:XDC file:1 line:28 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN G1 IOSTANDARD LVCMOS33} [get_ports {y}]

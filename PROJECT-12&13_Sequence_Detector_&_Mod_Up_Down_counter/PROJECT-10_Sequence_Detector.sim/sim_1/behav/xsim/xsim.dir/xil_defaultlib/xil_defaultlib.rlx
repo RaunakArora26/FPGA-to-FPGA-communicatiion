@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sim_1/imports/new/modUpDownCounter_tb.v,1718342275,verilog,,,,modUpDownCounter_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sim_1/imports/new/sequence_detector_tb.v,1718335736,verilog,,,,sequence_detector_tb,,,,,,,,
+C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sources_1/imports/new/mod_five_up_down_counter.v,1718341746,verilog,,C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sim_1/imports/new/modUpDownCounter_tb.v,,mod_five_up_down_counter,,,,,,,,
+C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sources_1/imports/new/sequence_detector.v,1718335739,verilog,,C:/Users/lenovo/PROJECT-10_Sequence_Detector/PROJECT-10_Sequence_Detector.srcs/sim_1/imports/new/sequence_detector_tb.v,,sequence_detector1,,,,,,,,

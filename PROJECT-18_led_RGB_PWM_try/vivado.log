@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug  1 17:47:37 2024
+# Process ID: 19304
+# Current directory: C:/Users/lenovo/PWM_try
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22364 C:\Users\lenovo\PWM_try\PWM_try.xpr
+# Log file: C:/Users/lenovo/PWM_try/vivado.log
+# Journal file: C:/Users/lenovo/PWM_try\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/PWM_try/PWM_try.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 778.984 ; gain = 83.160
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug  1 17:48:43 2024...

@@ -1,0 +1,325 @@
+11:40:51 **** Build of project PROJECT_20_UART_GPIO_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+11:41:07 **** Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: PROJECT_20_UART_GPIO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PROJECT_20_UART_GPIO_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PROJECT_20_UART_GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PROJECT_20_UART_GPIO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PROJECT_20_UART_GPIO.elf  |tee "PROJECT_20_UART_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2382	    268	   3110	   5760	   1680	PROJECT_20_UART_GPIO.elf
+'Finished building: PROJECT_20_UART_GPIO.elf.size'
+' '
+11:42:21 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.
+11:43:11 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.
+11:43:21 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.
+11:56:14 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:5: error: unknown type name 'input'
+     input val,toggle=0;
+     ^~~~~
+../src/helloworld.c:66:5: warning: implicit declaration of function 'XGPIO_Initialize' [-Wimplicit-function-declaration]
+     XGPIO_Initialize(&output,XPAR_AXI_GPIO_0_DEVICE_ID);
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:61:15: warning: unused variable 'toggle' [-Wunused-variable]
+     input val,toggle=0;
+               ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:86:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:86:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:86:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:87:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:88:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:08:29 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:61:5: error: unknown type name 'input'
+     input val,toggle=0;
+     ^~~~~
+../src/helloworld.c:61:15: warning: unused variable 'toggle' [-Wunused-variable]
+     input val,toggle=0;
+               ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:88:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:88:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:89:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:90:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:12:18 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:5: error: unknown type name 'input'
+     input val,toggle=0;
+     ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:102:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:102:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:102:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:103:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:104:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:12:58 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:5: error: unknown type name 'input'
+     input val,toggle=0;
+     ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:102:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:102:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:102:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:103:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:104:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:13:41 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:102:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:102:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:102:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:103:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:104:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:14:11 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:102:5: warning: data definition has no type or storage class
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/helloworld.c:102:5: warning: type defaults to 'int' in declaration of 'cleanup_platform' [-Wimplicit-int]
+../src/helloworld.c:102:5: error: conflicting types for 'cleanup_platform'
+In file included from ../src/helloworld.c:49:0:
+../src/platform.h:39:6: note: previous declaration of 'cleanup_platform' was here
+ void cleanup_platform();
+      ^~~~~~~~~~~~~~~~
+../src/helloworld.c:103:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+../src/helloworld.c:104:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+12:15:24 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: PROJECT_20_UART_GPIO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PROJECT_20_UART_GPIO_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PROJECT_20_UART_GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PROJECT_20_UART_GPIO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PROJECT_20_UART_GPIO.elf  |tee "PROJECT_20_UART_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3598	    304	   3114	   7016	   1b68	PROJECT_20_UART_GPIO.elf
+'Finished building: PROJECT_20_UART_GPIO.elf.size'
+' '
+12:15:55 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.
+12:18:50 **** Auto Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: PROJECT_20_UART_GPIO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PROJECT_20_UART_GPIO_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PROJECT_20_UART_GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PROJECT_20_UART_GPIO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PROJECT_20_UART_GPIO.elf  |tee "PROJECT_20_UART_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3594	    304	   3118	   7016	   1b68	PROJECT_20_UART_GPIO.elf
+'Finished building: PROJECT_20_UART_GPIO.elf.size'
+' '
+12:19:21 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.
+13:04:05 **** Clean-only build of project PROJECT_20_UART_GPIO_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/gpio_v4_3/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_5/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+13:04:07 **** Clean-only build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  PROJECT_20_UART_GPIO.elf.size  PROJECT_20_UART_GPIO.elf
+' '
+13:04:07 **** Build of project PROJECT_20_UART_GPIO_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_5/src"
+make -C microblaze_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+13:04:19 **** Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../PROJECT_20_UART_GPIO_bsp/microblaze_0/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: PROJECT_20_UART_GPIO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PROJECT_20_UART_GPIO_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v10.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PROJECT_20_UART_GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PROJECT_20_UART_GPIO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PROJECT_20_UART_GPIO.elf  |tee "PROJECT_20_UART_GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3594	    304	   3118	   7016	   1b68	PROJECT_20_UART_GPIO.elf
+'Finished building: PROJECT_20_UART_GPIO.elf.size'
+' '
+13:21:26 **** Incremental Build of configuration Debug for project PROJECT_20_UART_GPIO ****
+make all 
+make: Nothing to be done for `all'.

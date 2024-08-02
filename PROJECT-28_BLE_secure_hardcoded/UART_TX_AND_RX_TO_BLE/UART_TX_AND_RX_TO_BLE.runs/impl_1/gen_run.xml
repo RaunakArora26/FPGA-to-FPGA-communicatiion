@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1721706775">
+  <File Type="PWROPT-DCP" Name="BLE_UART_wrapper_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="BLE_UART_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="BLE_UART_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="BLE_UART_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="BLE_UART_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="BLE_UART_wrapper.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="BLE_UART_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="BLE_UART_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="BLE_UART_wrapper.hwdef"/>
+  <File Type="OPT-DCP" Name="BLE_UART_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="BLE_UART_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="BLE_UART_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="BLE_UART_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="BLE_UART_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="BLE_UART_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="BLE_UART_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="BLE_UART_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="BLE_UART_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="BLE_UART_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="BLE_UART_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="BLE_UART_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="BLE_UART_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="BLE_UART_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="BLE_UART_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="BLE_UART_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="BLE_UART_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="BLE_UART_wrapper_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="BLE_UART_wrapper.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="BLE_UART_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="BLE_UART_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="BLE_UART_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="BLE_UART_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="BLE_UART_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="BLE_UART_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="BLE_UART_wrapper.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="BLE_UART_wrapper_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="BLE_UART_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="BLE_UART_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="BLE_UART_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="BLE_UART_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="BLE_UART_wrapper.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="BLE_UART_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="BLE_UART_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="BLE_UART_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="BLE_UART_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="BLE_UART_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="BLE_UART_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="BLE_UART_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="BLE_UART_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="BLE_UART_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="BLE_UART_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="BLE_UART_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="BLE_UART_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="BLE_UART_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="BLE_UART_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="BLE_UART_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="BLE_UART_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="BLE_UART_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="BLE_UART_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="BLE_UART_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="BLE_UART_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/Seven_segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/Seven_segment.v"/>
+        <Attr Name="ImportTime" Val="1717734086"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SlowClock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/SlowClock.v"/>
+        <Attr Name="ImportTime" Val="1719219080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/binarytoSevenSeg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/binarytoSevenSeg.v"/>
+        <Attr Name="ImportTime" Val="1717751517"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/decoder.v"/>
+        <Attr Name="ImportTime" Val="1717753224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fourXone_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/fourXone_mux.v"/>
+        <Attr Name="ImportTime" Val="1719212297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top_base.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/top_base.v"/>
+        <Attr Name="ImportTime" Val="1717758623"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/twobitcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/twobitcounter.v"/>
+        <Attr Name="ImportTime" Val="1717753081"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MainTopModule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/MainTopModule.v"/>
+        <Attr Name="ImportTime" Val="1720695613"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_Rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/UART_Rx.v"/>
+        <Attr Name="ImportTime" Val="1719216072"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BLE_UART/BLE_UART.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BLE_UART/hdl/BLE_UART_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_Tx.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/UART_Tx.v"/>
+        <Attr Name="ImportTime" Val="1719228183"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/counterrrpart.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/sources_1/imports/new/counterrrpart.v"/>
+        <Attr Name="ImportTime" Val="1718347078"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="BLE_UART_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/boolean.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Decrypting_BLE_hardcoded/Decrypting_BLE_hardcoded.srcs/constrs_1/imports/Downloads/boolean.xdc"/>
+        <Attr Name="ImportTime" Val="1720772617"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_UART_Seven_seg_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_UART_UART_Rx_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_UART_Seven_seg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_UART_UART_Rx_0_0"/>
+</GenRun>

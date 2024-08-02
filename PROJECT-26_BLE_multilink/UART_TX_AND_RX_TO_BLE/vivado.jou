@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug  1 18:35:55 2024
+# Process ID: 4496
+# Current directory: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11844 C:\Users\lenovo\UART_TX_AND_RX_TO_BLE\UART_TX_AND_RX_TO_BLE.xpr
+# Log file: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/vivado.log
+# Journal file: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/UART_TX_AND_RX_TO_BLE.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/UART_TX_AND_RX_TO_BLE.srcs/sources_1/bd/BLE_UART/BLE_UART.bd}

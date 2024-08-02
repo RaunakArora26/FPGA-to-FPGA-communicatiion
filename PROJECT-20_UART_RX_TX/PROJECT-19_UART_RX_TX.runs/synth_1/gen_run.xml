@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1721647677">
+  <File Type="PA-TCL" Name="MainTopModule.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="MainTopModule_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="MainTopModule_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MainTopModule.vds"/>
+  <File Type="RDS-UTIL" Name="MainTopModule_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MainTopModule_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MainTopModule.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MainTopModule_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MainTopModule_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/Seven_segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/Seven_segment.v"/>
+        <Attr Name="ImportTime" Val="1717734086"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/SlowClock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/SlowClock.v"/>
+        <Attr Name="ImportTime" Val="1719219080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/UART_RX_V_TWO/UART_RX_V_TWO.srcs/sources_1/new/UART_Rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../UART_RX_V_TWO/UART_RX_V_TWO.srcs/sources_1/new/UART_Rx.v"/>
+        <Attr Name="ImportTime" Val="1719216072"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/UART_RX_V_TWO/UART_RX_V_TWO.srcs/sources_1/new/UART_Tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../UART_RX_V_TWO/UART_RX_V_TWO.srcs/sources_1/new/UART_Tx.v"/>
+        <Attr Name="ImportTime" Val="1719228183"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/binarytoSevenSeg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/binarytoSevenSeg.v"/>
+        <Attr Name="ImportTime" Val="1717751517"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/decoder.v"/>
+        <Attr Name="ImportTime" Val="1717753224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/fourXone_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/fourXone_mux.v"/>
+        <Attr Name="ImportTime" Val="1719212297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/top_base.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/top_base.v"/>
+        <Attr Name="ImportTime" Val="1717758623"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/twobitcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/twobitcounter.v"/>
+        <Attr Name="ImportTime" Val="1717753081"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lenovo/Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/MainTopModule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Binary_to_BCD_sevensegment_to_counter/Binary_to_BCD_sevensegment_to_counter.srcs/sources_1/new/MainTopModule.v"/>
+        <Attr Name="ImportTime" Val="1721647167"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MainTopModule"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/UART.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

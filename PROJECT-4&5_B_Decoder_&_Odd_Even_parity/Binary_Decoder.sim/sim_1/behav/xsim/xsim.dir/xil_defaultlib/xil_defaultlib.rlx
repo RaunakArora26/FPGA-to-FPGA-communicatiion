@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sim_1/imports/new/Decoder_tb.v,1718191117,verilog,,,,Decoder_tb,,,,,,,,
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sim_1/imports/new/odd_even_partiy_tb.v,1718192761,verilog,,,,odd_even_partiy_tb,,,,,,,,
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sources_1/imports/new/Decoder_two_to_four.v,1718192950,verilog,,C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sources_1/imports/new/Four_one_tree_decoder.v,,Decoder_two_to_four_behav,,,,,,,,
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sources_1/imports/new/Four_one_tree_decoder.v,1718190700,verilog,,C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sources_1/imports/new/odd_even_parity_Fn.v,,Four_one_tree_decoder,,,,,,,,
+C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sources_1/imports/new/odd_even_parity_Fn.v,1718193148,verilog,,C:/Users/lenovo/Binary_Decoder/Binary_Decoder.srcs/sim_1/imports/new/odd_even_partiy_tb.v,,odd_even_parity_Fn,,,,,,,,

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1720774596">
+  <File Type="PA-TCL" Name="BLE_Decryption_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="BLE_Decryption_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="BLE_Decryption_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="BLE_Decryption_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="BLE_Decryption_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="BLE_Decryption_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_Rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/UART_Rx.v"/>
+        <Attr Name="ImportTime" Val="1719216072"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Seven_segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/Seven_segment.v"/>
+        <Attr Name="ImportTime" Val="1717734086"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SlowClock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/SlowClock.v"/>
+        <Attr Name="ImportTime" Val="1719219080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/binarytoSevenSeg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/binarytoSevenSeg.v"/>
+        <Attr Name="ImportTime" Val="1717751517"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/decoder.v"/>
+        <Attr Name="ImportTime" Val="1717753224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fourXone_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/fourXone_mux.v"/>
+        <Attr Name="ImportTime" Val="1719212297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top_base.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/top_base.v"/>
+        <Attr Name="ImportTime" Val="1717758623"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/twobitcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/twobitcounter.v"/>
+        <Attr Name="ImportTime" Val="1717753081"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MainTopModule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/MainTopModule.v"/>
+        <Attr Name="ImportTime" Val="1720695613"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decrypter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_Tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../last_uart_try/last_uart_try.srcs/sources_1/imports/new/UART_Tx.v"/>
+        <Attr Name="ImportTime" Val="1719228183"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BLE_Decryption/BLE_Decryption.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BLE_Decryption/hdl/BLE_Decryption_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="BLE_Decryption_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/boolean.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/boolean.xdc"/>
+        <Attr Name="ImportTime" Val="1719998945"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_Decryption_UART_Rx_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_Decryption_Seven_seg_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_Decryption_Decrypter_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_Decryption_Seven_seg_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BLE_Decryption_UART_Tx_0_0"/>
+</GenRun>

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PROJECT-6_Full_Adder.srcs/sources_1/imports/new/Full_adder.v" \
+"../../../../PROJECT-6_Full_Adder.srcs/sources_1/imports/new/Ripple_carray_Adder.v" \
+"../../../../PROJECT-6_Full_Adder.srcs/sim_1/new/Rippler_carray-adder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

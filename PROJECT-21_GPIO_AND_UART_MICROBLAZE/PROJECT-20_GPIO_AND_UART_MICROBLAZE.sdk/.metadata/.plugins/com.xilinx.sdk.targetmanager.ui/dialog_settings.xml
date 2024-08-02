@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="GPIO_UART_wrapper.mmi" key="GPIO_UART_wrapper_hw_platform_0-bmmFile"/>
+	<item value="GPIO_UART_wrapper.bit" key="GPIO_UART_wrapper_hw_platform_0-bitFile"/>
+	<item value="Auto Detect" key="GPIO_UART_wrapper_hw_platform_0-device"/>
+	<item value="GPIO_UART_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="bootloop" key="GPIO_UART_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="Local" key="GPIO_UART_wrapper_hw_platform_0-target"/>
+	<item value="false" key="GPIO_UART_wrapper_hw_platform_0-partial_bit"/>
+</section>

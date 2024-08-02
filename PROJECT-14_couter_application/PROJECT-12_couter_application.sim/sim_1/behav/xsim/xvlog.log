@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/PROJECT-12_couter_application/PROJECT-12_couter_application.srcs/sources_1/new/Seq_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sequence_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/PROJECT-12_couter_application/PROJECT-12_couter_application.srcs/sim_1/new/Seq_gen_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seq_gen_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/PROJECT-12_couter_application/PROJECT-12_couter_application.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

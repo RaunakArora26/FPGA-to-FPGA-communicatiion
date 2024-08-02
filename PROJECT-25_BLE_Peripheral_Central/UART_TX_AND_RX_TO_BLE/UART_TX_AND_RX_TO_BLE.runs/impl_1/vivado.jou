@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jul 23 09:25:35 2024
+# Process ID: 23928
+# Current directory: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/UART_TX_AND_RX_TO_BLE.runs/impl_1
+# Command line: vivado.exe -log BLE_UART_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source BLE_UART_wrapper.tcl -notrace
+# Log file: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/UART_TX_AND_RX_TO_BLE.runs/impl_1/BLE_UART_wrapper.vdi
+# Journal file: C:/Users/lenovo/UART_TX_AND_RX_TO_BLE/UART_TX_AND_RX_TO_BLE.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source BLE_UART_wrapper.tcl -notrace

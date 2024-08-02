@@ -1,0 +1,7 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/lenovo/PWM_try/PWM_try.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/PWM_try/PWM_try.srcs/sim_1/new/slow_timer_check.v,1721638625,verilog,,,,slow_timer_check,,,,,,,,
+C:/Users/lenovo/PWM_try/PWM_try.srcs/sources_1/imports/new/SlowClock.v,1721638545,verilog,,C:/Users/lenovo/PWM_try/PWM_try.srcs/sim_1/new/slow_timer_check.v,,SlowClock;Slowtimer,,,,,,,,

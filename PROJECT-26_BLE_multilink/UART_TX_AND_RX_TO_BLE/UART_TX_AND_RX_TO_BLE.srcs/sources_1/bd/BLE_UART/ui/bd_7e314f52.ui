@@ -1,0 +1,30 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_serial_UART -pg 1 -y 80 -defaultsOSRD
+preplace port Tx_UART -pg 1 -y 290 -defaultsOSRD
+preplace port i_serial_BLE -pg 1 -y 230 -defaultsOSRD
+preplace port Tx_BLE -pg 1 -y 140 -defaultsOSRD
+preplace port mclk -pg 1 -y 60 -defaultsOSRD
+preplace portBus seg_0 -pg 1 -y 80 -defaultsOSRD
+preplace portBus seg_1 -pg 1 -y 230 -defaultsOSRD
+preplace portBus an_0 -pg 1 -y 60 -defaultsOSRD
+preplace portBus an_1 -pg 1 -y 210 -defaultsOSRD
+preplace inst UART_Rx_0 -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace inst UART_Rx_1 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst Seven_seg_BLE -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst Seven_seg_UART -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace netloc mclk_0_1 1 0 2 20 300 310
+preplace netloc i_serial_1_1 1 0 3 10 290 NJ 290 NJ
+preplace netloc i_serial_0_1 1 0 3 30 140 NJ 140 NJ
+preplace netloc Seven_seg_1_seg 1 2 1 NJ
+preplace netloc UART_Rx_1_o_byte 1 1 1 N
+preplace netloc UART_Rx_0_o_byte 1 1 1 N
+preplace netloc Seven_seg_0_seg 1 2 1 NJ
+preplace netloc Seven_seg_0_an 1 2 1 NJ
+preplace netloc Seven_seg_1_an 1 2 1 NJ
+levelinfo -pg 1 -10 170 450 610 -top 0 -bot 310
+",
+}
+

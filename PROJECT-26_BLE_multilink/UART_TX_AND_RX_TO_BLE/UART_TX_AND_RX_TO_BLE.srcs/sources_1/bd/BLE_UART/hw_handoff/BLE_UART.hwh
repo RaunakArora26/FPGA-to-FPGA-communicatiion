@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Jul 23 09:22:37 2024" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="spartan7" DEVICE="7s50" NAME="BLE_UART" PACKAGE="csga324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Rx_0" PORT="mclk"/>
+        <CONNECTION INSTANCE="Seven_seg_UART" PORT="mclk"/>
+        <CONNECTION INSTANCE="UART_Rx_1" PORT="mclk"/>
+        <CONNECTION INSTANCE="Seven_seg_BLE" PORT="mclk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="i_serial_UART" SIGIS="undef" SIGNAME="External_Ports_i_serial_UART">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Rx_0" PORT="i_serial"/>
+        <CONNECTION INSTANCE="External_Ports" PORT="Tx_BLE"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="an_0" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_UART_an">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_UART" PORT="an"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="seg_0" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_UART_seg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_UART" PORT="seg"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Tx_BLE" SIGIS="undef" SIGNAME="External_Ports_i_serial_UART">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="i_serial_UART"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="i_serial_BLE" SIGIS="undef" SIGNAME="External_Ports_i_serial_BLE">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Rx_1" PORT="i_serial"/>
+        <CONNECTION INSTANCE="External_Ports" PORT="Tx_UART"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Tx_UART" SIGIS="undef" SIGNAME="External_Ports_i_serial_BLE">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="i_serial_BLE"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="an_1" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_BLE_an">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_BLE" PORT="an"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="seg_1" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_BLE_seg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_BLE" PORT="seg"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/Seven_seg_BLE" HWVERSION="1.0" INSTANCE="Seven_seg_BLE" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Seven_seg" VLNV="xilinx.com:module_ref:Seven_seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="zeros" VALUE="&quot;0000&quot;"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_UART_Seven_seg_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_1_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Rx_1" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="an" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_BLE_an">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="an_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_BLE_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="seg_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Seven_seg_UART" HWVERSION="1.0" INSTANCE="Seven_seg_UART" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Seven_seg" VLNV="xilinx.com:module_ref:Seven_seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="zeros" VALUE="&quot;0000&quot;"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_UART_Seven_seg_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_0_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Rx_0" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="an" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_UART_an">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="an_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_UART_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="seg_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/UART_Rx_0" HWVERSION="1.0" INSTANCE="UART_Rx_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="UART_Rx" VLNV="xilinx.com:module_ref:UART_Rx:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per_bits" VALUE="868"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_UART_UART_Rx_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i_serial" SIGIS="undef" SIGNAME="External_Ports_i_serial_UART">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="i_serial_UART"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_0_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seven_seg_UART" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="done" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/UART_Rx_1" HWVERSION="1.0" INSTANCE="UART_Rx_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="UART_Rx" VLNV="xilinx.com:module_ref:UART_Rx:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per_bits" VALUE="868"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_UART_UART_Rx_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i_serial" SIGIS="undef" SIGNAME="External_Ports_i_serial_BLE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="i_serial_BLE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_1_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seven_seg_BLE" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="done" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

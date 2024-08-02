@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Jul 12 14:26:23 2024" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="spartan7" DEVICE="7s50" NAME="BLE_Decryption" PACKAGE="csga324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Rx_0" PORT="mclk"/>
+        <CONNECTION INSTANCE="Seven_seg_0" PORT="mclk"/>
+        <CONNECTION INSTANCE="Seven_seg_1" PORT="mclk"/>
+        <CONNECTION INSTANCE="UART_Tx_0" PORT="mclk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="i_serial_BLE" SIGIS="undef" SIGNAME="External_Ports_i_serial_BLE">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Rx_0" PORT="i_serial"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Encrypted_An" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_0_an">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_0" PORT="an"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="Encrypted_Seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_0_seg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_0" PORT="seg"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="Decrypted_An" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_1_an">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_1" PORT="an"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="Decrypted_Seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_1_seg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seven_seg_1" PORT="seg"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Tx_Uart" SIGIS="undef" SIGNAME="UART_Tx_0_Tx">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="UART_Tx_0" PORT="Tx"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Placeholder" SIGIS="undef" SIGNAME="Decrypter_0_Placeholder">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decrypter_0" PORT="Placeholder"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/Decrypter_0" HWVERSION="1.0" INSTANCE="Decrypter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decrypter" VLNV="xilinx.com:module_ref:Decrypter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_Decryption_Decrypter_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="Encrypted" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_0_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Rx_0" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="Normal" RIGHT="0" SIGIS="undef" SIGNAME="Decrypter_0_Normal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seven_seg_1" PORT="o_byte"/>
+            <CONNECTION INSTANCE="UART_Tx_0" PORT="data_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Placeholder" SIGIS="undef" SIGNAME="Decrypter_0_Placeholder">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Placeholder"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Seven_seg_0" HWVERSION="1.0" INSTANCE="Seven_seg_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Seven_seg" VLNV="xilinx.com:module_ref:Seven_seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="zeros" VALUE="&quot;0000&quot;"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_Decryption_Seven_seg_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_0_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Rx_0" PORT="o_byte"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="an" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_0_an">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Encrypted_An"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_0_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Encrypted_Seg"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Seven_seg_1" HWVERSION="1.0" INSTANCE="Seven_seg_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Seven_seg" VLNV="xilinx.com:module_ref:Seven_seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="zeros" VALUE="&quot;0000&quot;"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_Decryption_Seven_seg_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="Decrypter_0_Normal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decrypter_0" PORT="Normal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="an" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_1_an">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Decrypted_An"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="seg" RIGHT="0" SIGIS="undef" SIGNAME="Seven_seg_1_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Decrypted_Seg"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/UART_Rx_0" HWVERSION="1.0" INSTANCE="UART_Rx_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="UART_Rx" VLNV="xilinx.com:module_ref:UART_Rx:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per_bits" VALUE="868"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_Decryption_UART_Rx_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="i_serial" SIGIS="undef" SIGNAME="External_Ports_i_serial_BLE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="i_serial_BLE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="o_byte" RIGHT="0" SIGIS="undef" SIGNAME="UART_Rx_0_o_byte">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seven_seg_0" PORT="o_byte"/>
+            <CONNECTION INSTANCE="Decrypter_0" PORT="Encrypted"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="done" SIGIS="undef" SIGNAME="UART_Rx_0_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Tx_0" PORT="data_available"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/UART_Tx_0" HWVERSION="1.0" INSTANCE="UART_Tx_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="UART_Tx" VLNV="xilinx.com:module_ref:UART_Tx:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="clk_per_bits" VALUE="868"/>
+        <PARAMETER NAME="Component_Name" VALUE="BLE_Decryption_UART_Tx_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="7" NAME="data_byte" RIGHT="0" SIGIS="undef" SIGNAME="Decrypter_0_Normal">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decrypter_0" PORT="Normal"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="data_available" SIGIS="undef" SIGNAME="UART_Rx_0_done">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="UART_Rx_0" PORT="done"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="mclk" SIGIS="undef" SIGNAME="External_Ports_mclk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="mclk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Tx" SIGIS="undef" SIGNAME="UART_Tx_0_Tx">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Tx_Uart"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="active" SIGIS="undef"/>
+        <PORT DIR="O" NAME="done" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

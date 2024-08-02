@@ -1,0 +1,82 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Mon Jul 22 16:59:38 2024
+| Host         : Raunak-Thinkpad running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file MainTopModule_control_sets_placed.rpt
+| Design       : MainTopModule
+| Device       : xc7s50
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    80 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |           10 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              30 |            8 |
+| Yes          | No                    | No                     |              19 |           14 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-------------------------+---------------------------+------------------+----------------+
+|   Clock Signal  |      Enable Signal      |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------+-------------------------+---------------------------+------------------+----------------+
+|  mclk_IBUF_BUFG | L0/p_0_in[6]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[7]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[2]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[1]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[0]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[3]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[4]            |                           |                1 |              1 |
+|  mclk_IBUF_BUFG | L0/p_0_in[5]            |                           |                1 |              1 |
+|  L2/CLK         |                         |                           |                1 |              2 |
+|  L0/E[0]        |                         |                           |                3 |              7 |
+|  mclk_IBUF_BUFG | L9/r_counter[9]_i_1_n_0 | L9/r_data_byte[7]_i_1_n_0 |                2 |              8 |
+|  mclk_IBUF_BUFG |                         | L9/r_counter[9]_i_1_n_0   |                3 |             10 |
+|  mclk_IBUF_BUFG | L0/r_count[10]_i_1_n_0  |                           |                6 |             11 |
+|  mclk_IBUF_BUFG |                         |                           |                6 |             14 |
+|  mclk_IBUF_BUFG |                         | L2/clk_out                |                5 |             20 |
++-----------------+-------------------------+---------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     8 |
+| 2      |                     1 |
+| 7      |                     1 |
+| 8      |                     1 |
+| 10     |                     1 |
+| 11     |                     1 |
+| 14     |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

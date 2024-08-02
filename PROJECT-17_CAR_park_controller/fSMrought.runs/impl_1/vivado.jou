@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Jul 22 12:28:07 2024
+# Process ID: 25544
+# Current directory: C:/Users/lenovo/fSMrought/fSMrought.runs/impl_1
+# Command line: vivado.exe -log maincarParkController.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source maincarParkController.tcl -notrace
+# Log file: C:/Users/lenovo/fSMrought/fSMrought.runs/impl_1/maincarParkController.vdi
+# Journal file: C:/Users/lenovo/fSMrought/fSMrought.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source maincarParkController.tcl -notrace
